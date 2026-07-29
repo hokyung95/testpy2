@@ -1,0 +1,74 @@
+[2026-07-14 15:35:29] System initialized. Starting Actors...
+[2026-07-14 15:35:29] [Consumer 1] Started consuming...
+[2026-07-14 15:35:29] [Consumer 0] Started consuming...
+[2026-07-14 15:35:31] [Consumer 0] Received: Message #0 from Ray Producer
+[2026-07-14 15:35:31] [Producer] Starting to publish 10 messages...
+[2026-07-14 15:35:31] [Producer] Sent: Message #0 from Ray Producer
+[2026-07-14 15:35:31] [Producer] Sent: Message #1 from Ray Producer
+[2026-07-14 15:35:31] [Consumer 1] Received: Message #1 from Ray Producer
+[2026-07-14 15:35:32] [Producer] Sent: Message #2 from Ray Producer
+[2026-07-14 15:35:32] [Producer] Sent: Message #3 from Ray Producer
+[2026-07-14 15:35:33] [Consumer 0] Done processing.
+[2026-07-14 15:35:33] [Consumer 0] Received: Message #2 from Ray Producer
+[2026-07-14 15:35:33] [Producer] Sent: Message #4 from Ray Producer
+[2026-07-14 15:35:33] [Consumer 1] Done processing.
+[2026-07-14 15:35:33] [Consumer 1] Received: Message #3 from Ray Producer
+[2026-07-14 15:35:33] [Producer] Sent: Message #5 from Ray Producer
+[2026-07-14 15:35:34] [Producer] Sent: Message #6 from Ray Producer
+[2026-07-14 15:35:34] [Producer] Sent: Message #7 from Ray Producer
+[2026-07-14 15:35:35] [Consumer 0] Done processing.
+[2026-07-14 15:35:35] [Consumer 0] Received: Message #4 from Ray Producer
+[2026-07-14 15:35:35] [Producer] Sent: Message #8 from Ray Producer
+[2026-07-14 15:35:35] [Consumer 1] Done processing.
+[2026-07-14 15:35:35] [Consumer 1] Received: Message #5 from Ray Producer
+[2026-07-14 15:35:35] [Producer] Sent: Message #9 from Ray Producer
+[2026-07-14 15:35:36] [Producer] Finished publishing all messages.
+[2026-07-14 15:35:36] Waiting for consumers to finish processing...
+[2026-07-14 15:35:37] [Consumer 0] Done processing.
+[2026-07-14 15:35:37] [Consumer 0] Received: Message #6 from Ray Producer
+[2026-07-14 15:35:37] [Consumer 1] Done processing.
+[2026-07-14 15:35:37] [Consumer 1] Received: Message #7 from Ray Producer
+[2026-07-14 15:35:39] [Consumer 0] Done processing.
+[2026-07-14 15:35:39] [Consumer 0] Received: Message #8 from Ray Producer
+[2026-07-14 15:35:39] [Consumer 1] Done processing.
+[2026-07-14 15:35:39] [Consumer 1] Received: Message #9 from Ray Producer
+[2026-07-14 15:35:41] [Consumer 0] Done processing.
+[2026-07-14 15:35:41] [Consumer 1] Done processing.
+[2026-07-14 15:35:51] Shutting down Ray...
+[2026-07-14 15:36:29] System initialized. Starting Actors...
+[2026-07-14 15:36:29] [Consumer 0] Started consuming...
+[2026-07-14 15:36:29] [Consumer 1] Started consuming...
+[2026-07-14 15:36:31] [Consumer 1] Received: Message #0 from Ray Producer
+[2026-07-14 15:36:31] [Producer] Starting to publish 10 messages...
+[2026-07-14 15:36:31] [Producer] Sent: Message #0 from Ray Producer
+[2026-07-14 15:36:31] [Producer] Sent: Message #1 from Ray Producer
+[2026-07-14 15:36:31] [Consumer 0] Received: Message #1 from Ray Producer
+[2026-07-14 15:36:32] [Producer] Sent: Message #2 from Ray Producer
+[2026-07-14 15:36:32] [Producer] Sent: Message #3 from Ray Producer
+[2026-07-14 15:36:33] [Consumer 1] Done processing.
+[2026-07-14 15:36:33] [Consumer 1] Received: Message #2 from Ray Producer
+[2026-07-14 15:36:33] [Producer] Sent: Message #4 from Ray Producer
+[2026-07-14 15:36:33] [Consumer 0] Done processing.
+[2026-07-14 15:36:33] [Consumer 0] Received: Message #3 from Ray Producer
+[2026-07-14 15:36:33] [Producer] Sent: Message #5 from Ray Producer
+[2026-07-14 15:36:34] [Producer] Sent: Message #6 from Ray Producer
+[2026-07-14 15:36:34] [Producer] Sent: Message #7 from Ray Producer
+[2026-07-14 15:36:35] [Consumer 1] Done processing.
+[2026-07-14 15:36:35] [Consumer 1] Received: Message #4 from Ray Producer
+[2026-07-14 15:36:35] [Producer] Sent: Message #8 from Ray Producer
+[2026-07-14 15:36:35] [Consumer 0] Done processing.
+[2026-07-14 15:36:35] [Consumer 0] Received: Message #5 from Ray Producer
+[2026-07-14 15:36:35] [Producer] Sent: Message #9 from Ray Producer
+[2026-07-14 15:36:36] [Producer] Finished publishing all messages.
+[2026-07-14 15:36:36] Waiting for consumers to finish processing...
+[2026-07-14 15:36:37] [Consumer 1] Done processing.
+[2026-07-14 15:36:37] [Consumer 1] Received: Message #6 from Ray Producer
+[2026-07-14 15:36:37] [Consumer 0] Done processing.
+[2026-07-14 15:36:37] [Consumer 0] Received: Message #7 from Ray Producer
+[2026-07-14 15:36:39] [Consumer 1] Done processing.
+[2026-07-14 15:36:39] [Consumer 1] Received: Message #8 from Ray Producer
+[2026-07-14 15:36:39] [Consumer 0] Done processing.
+[2026-07-14 15:36:39] [Consumer 0] Received: Message #9 from Ray Producer
+[2026-07-14 15:36:41] [Consumer 1] Done processing.
+[2026-07-14 15:36:41] [Consumer 0] Done processing.
+[2026-07-14 15:36:51] Shutting down Ray...
