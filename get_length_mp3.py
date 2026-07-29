@@ -21,20 +21,20 @@ def get_mp3_duration(folder_path):
         file_path = os.path.join(folder_path, file)
         try:
             audio = MP3(file_path)
-            total_seconds = int(audio.info.length)
+            total_seconds = int(audio.info.length) + 1
             
             # 시간, 분, 초 계산
             hours = total_seconds // 3600
             minutes = (total_seconds % 3600) // 60
-            seconds = (total_seconds % 60 ) + 1
+            seconds = (total_seconds % 60 ) 
             
             time_str = f"{minutes:02d}:{seconds:02d}"
             # print(f"{file[:28]:<30}          | ")
-            print(f"{time_str}  {file[:28]}")
+            print(f"{time_str}  {file[:90]}")
             
         except Exception as e:
             print(f"{file}: 정보를 읽을 수 없습니다. ({e})")
 
 # 사용 예시: 'C:/Music' 폴더의 경로를 입력하세요
-folder_path = "D:\\tmp\\0716" 
+folder_path = "D:\\유튜브작업\\롱폼\\SUNO음악\\20260727" 
 get_mp3_duration(folder_path)
