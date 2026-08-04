@@ -36,5 +36,5 @@ def get_mp3_duration(folder_path):
             print(f"{file}: 정보를 읽을 수 없습니다. ({e})")
 
 # 사용 예시: 'C:/Music' 폴더의 경로를 입력하세요
-folder_path = "D:\\유튜브작업\\롱폼\\SUNO음악\\20260727" 
+folder_path = "D:\\유튜브작업\\롱폼\\SUNO음악\\20260804" 
 get_mp3_duration(folder_path)

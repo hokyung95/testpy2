@@ -7,6 +7,8 @@ ray.init(address="ray://192.168.225.130:10001", namespace="my_app")
 @ray.remote
 class SharedActor:
     def ping(self):
+        while True:
+            time.sleep(1)
         return "pong"
 
 
